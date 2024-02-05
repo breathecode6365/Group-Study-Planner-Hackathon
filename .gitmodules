@@ -1,0 +1,6 @@
+[submodule "Client"]
+	path = Client
+	url = https://github.com/maheshoz/study-planner
+[submodule "Server"]
+	path = Server
+	url = https://github.com/breathecode6365/Group-study-planner-backend.git
