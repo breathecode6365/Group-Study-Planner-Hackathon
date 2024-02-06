@@ -102,12 +102,16 @@ The Group Study Planner project follows a modular structure to separate concerns
 |-- Server/
 | |-- src/
 | | |-- controllers/
-| | |-- models/
-| | |-- routes/
+| | |-- DTO/
+| | |     |-- Request/
+| | |     |-- Response/
+| | |-- DAO/
+| | |     |-- Repository/
 | | |-- services/
-| | |-- app.js
-| | |-- server.js
-| |-- README.md
+| | |-- utility
+| | |-- GroupStudyPlannerApplication.java
+| | |-- application.properties
+| | |-- README.md
 |-- README.md
 |-- CONTRIBUTING.md
 |-- LICENSE
